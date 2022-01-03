@@ -25,8 +25,8 @@ mat2 = [
     [7, 8, 3, 4]
 ]
 
-summ2 = [[mat1[i][j] + mat2[i][j] for j in range(len(mat2))] for i in range(len(mat2))]
-print(summ2)
+summ = [[mat1[i][j] + mat2[i][j] for j in range(len(mat2))] for i in range(len(mat2))]
+print(summ)
 
 # multiplication of two matrices
 mul = [[0 for i in range(len(mat2[0]))] for j in range(len(mat1))]
@@ -51,11 +51,11 @@ for i in range(10):
 print(fibo(10))
 
 # concat and find length
-# str1 = input("Enter string1: ")
-# str2 = input("Enter string2: ")
+str1 = input("Enter string1: ")
+str2 = input("Enter string2: ")
 
-# print(str1 + str2)
-# print(len(str1 + str2))
+print(str1 + str2)
+print(len(str1 + str2))
 
 # insertion sort
 def insertionSort(arr):
